@@ -1,6 +1,8 @@
 import re
 import matplotlib.pyplot as plt
 
+# Patrick Kelly
+
 final_words = []
 stopwords = []
 regex = re.compile("([A-Z]\.)([A-Z]\.)+", re.IGNORECASE)
